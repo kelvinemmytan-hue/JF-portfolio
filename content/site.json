@@ -1,0 +1,59 @@
+{
+  "_note": "Single source for personal data and SEO. Edit this file, then run: node scripts/build.mjs",
+  "siteUrl": "https://example.com",
+  "name": "Juan Francis Manongdo",
+  "shortName": "Juan Francis",
+  "initials": "JM",
+  "jobTitle": "Senior AI Full Stack Engineer",
+  "intro": "I build intelligent AI applications, scalable SaaS platforms, and modern web products, combining strong backend architecture, modern frontend engineering, and practical AI integration to deliver reliable software from concept to production.",
+  "location": {
+    "city": "Baguio City",
+    "country": "Philippines",
+    "countryCode": "PH"
+  },
+  "yearsOfExperience": 5,
+  "openTo": [
+    "Remote full-time roles",
+    "Contract work",
+    "Freelance projects",
+    "International clients"
+  ],
+  "languages": [
+    "English"
+  ],
+  "contact": {
+    "email": "francismanongdo49@gmail.com",
+    "whatsapp": "+63 915 418 3012",
+    "telegram": "juanmanongdo",
+    "linkedin": "https://linkedin.com/in/juan-francis-manongdo-015987445"
+  },
+  "about": [
+    "I'm a Senior AI Full Stack Engineer with {years} years of experience building AI-powered applications, SaaS platforms, B2B marketplaces, and enterprise software.",
+    "My expertise spans Python, FastAPI, React, TypeScript, distributed backend systems, and AI engineering. I've worked on production AI platforms involving multi-agent execution, real-time streaming, LLM integrations, document intelligence, and large-scale data processing.",
+    "I enjoy taking ownership of challenging engineering problems, designing maintainable architectures, and turning complex product requirements into reliable, user-friendly software.",
+    "I combine strong technical execution with product thinking, focusing on performance, scalability, engineering quality, and measurable business impact."
+  ],
+  "seo": {
+    "title": "Juan Francis Manongdo — Senior AI Full Stack Engineer",
+    "description": "Senior AI Full Stack Engineer with {years} years in Python, FastAPI, React and TypeScript, building AI agent platforms, LLM apps and scalable SaaS products.",
+    "keywords": [
+      "Senior AI Full Stack Engineer",
+      "AI Application Developer",
+      "Python FastAPI Developer",
+      "React TypeScript Developer",
+      "AI Agent Engineer",
+      "Full Stack SaaS Developer"
+    ],
+    "googleSiteVerification": "",
+    "bingSiteVerification": ""
+  },
+  "education": [
+    {
+      "school": "Saint Louis University",
+      "degree": "Bachelor of Science in Computer Science",
+      "period": "08/2017 – 05/2021",
+      "location": "Baguio City, Philippines"
+    }
+  ],
+  "ogTags": "Python · FastAPI · React · TypeScript · AI Agents · SaaS"
+}

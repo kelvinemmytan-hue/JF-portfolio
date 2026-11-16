@@ -1,0 +1,647 @@
+{
+  "_note": "Order inside a category = order on the site (featured first). role + contributions appear on the cards and project pages.",
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI / SaaS / Intelligent Applications",
+      "short": "AI / SaaS"
+    },
+    {
+      "id": "web",
+      "name": "Web Platforms / CMS / Business Applications",
+      "short": "Web Platforms"
+    },
+    {
+      "id": "automation",
+      "name": "Automation / Integrations",
+      "short": "Automation"
+    },
+    {
+      "id": "landing",
+      "name": "Landing Pages / Website Development",
+      "short": "Landing Pages"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify / E-commerce Storefronts",
+      "short": "Shopify"
+    },
+    {
+      "id": "b2b",
+      "name": "B2B Marketplace / Enterprise Software",
+      "short": "B2B Marketplace"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "hebbia-matrix",
+      "name": "Hebbia Matrix",
+      "tagline": "Enterprise AI platform for document research",
+      "category": "ai",
+      "featured": true,
+      "url": "https://www.hebbia.com/",
+      "type": "Company project",
+      "company": "Hebbia",
+      "role": "Senior AI Full Stack Engineer (Contract)",
+      "period": "09/2023 – 09/2026",
+      "overview": "An enterprise AI platform that lets financial and legal professionals analyze large volumes of documents, run complex research workflows and get source-grounded answers using AI agents.",
+      "contributions": [
+        "Multi-agent execution infrastructure that turns one instruction into thousands of independently scheduled AI agent jobs.",
+        "Python and FastAPI backend services.",
+        "Real-time streaming through Server-Sent Events and WebSockets.",
+        "React and Redux data-grid state management.",
+        "PostgreSQL and Redis execution persistence.",
+        "Multi-provider LLM integration (OpenAI, Anthropic, Google AI).",
+        "Structured citations and source references.",
+        "Session recovery and idempotent execution."
+      ],
+      "impact": [
+        "Contributed to infrastructure supporting a platform that processes more than 250 billion tokens per month."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Redux",
+        "PostgreSQL",
+        "Redis",
+        "OpenAI",
+        "Anthropic",
+        "Google AI",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "metrics": [
+        {
+          "value": "250B+",
+          "label": "tokens processed monthly"
+        },
+        {
+          "value": "1000s",
+          "label": "agent jobs per instruction"
+        }
+      ]
+    },
+    {
+      "slug": "agentflow-enterprise",
+      "name": "AgentFlow Enterprise",
+      "tagline": "AI-powered revenue operations platform",
+      "category": "ai",
+      "featured": true,
+      "url": "https://agentflow-enterprise.com/about",
+      "type": "SaaS platform",
+      "role": "Full Stack Engineer",
+      "overview": "An AI-powered revenue operations platform that closes the gap between first lead signals and qualified business opportunities. It connects lead intake, AI scoring, operator review, billing readiness and CRM handoff in one pipeline.",
+      "features": [
+        "Lead intake",
+        "AI-powered lead scoring",
+        "Operator review workflows",
+        "Billing readiness",
+        "CRM handoff",
+        "Revenue operations pipeline"
+      ],
+      "stack": [
+        "React",
+        "Next.js",
+        "Supabase",
+        "PostgreSQL",
+        "PayPal"
+      ],
+      "contributions": [
+        "Built the Next.js and React interfaces for lead intake, operator review and billing workflows.",
+        "Implemented the AI lead-scoring flow that ranks incoming leads before operator review.",
+        "Designed the Supabase / PostgreSQL data model linking leads, reviews, billing status and CRM handoff.",
+        "Integrated PayPal to support billing readiness and payments.",
+        "Built the CRM handoff step that passes qualified opportunities to sales teams."
+      ]
+    },
+    {
+      "slug": "decionis",
+      "name": "Decionis",
+      "tagline": "Security and governance for AI agents",
+      "category": "ai",
+      "featured": true,
+      "url": "https://www.decionis.com/",
+      "type": "AI infrastructure / security platform",
+      "role": "Backend Engineer — AI Infrastructure",
+      "overview": "An AI agent execution governance platform that adds a deterministic authorization layer between autonomous AI agents and sensitive operations, focused on controlled execution, policy enforcement and safer agent access to protected systems.",
+      "technical": [
+        "AI agent authorization",
+        "Policy enforcement",
+        "Execution governance",
+        "Docker-based deployment",
+        "MCP integration",
+        "CI workflows"
+      ],
+      "stack": [
+        "Go",
+        "Docker",
+        "MCP",
+        "CI/CD"
+      ],
+      "contributions": [
+        "Developed Go services for the deterministic authorization layer between AI agents and protected operations.",
+        "Implemented policy enforcement and execution-governance checks for agent actions.",
+        "Built the MCP integration so agents request permissions through a standard tool interface.",
+        "Packaged the services with Docker and set up CI workflows for automated builds and tests."
+      ]
+    },
+    {
+      "slug": "fenced-ai",
+      "name": "Fenced.ai",
+      "tagline": "Device monitoring SaaS for families, schools and businesses",
+      "category": "ai",
+      "featured": true,
+      "url": "https://fenced.ai/",
+      "type": "SaaS platform",
+      "role": "Full Stack Developer",
+      "overview": "A subscription-based device monitoring platform that helps parents, schools and businesses monitor and manage device activity from a cloud dashboard.",
+      "features": [
+        "Call and SMS monitoring",
+        "Social media activity monitoring",
+        "GPS tracking and geofencing",
+        "Browser history monitoring",
+        "App usage tracking",
+        "Remote device activity management",
+        "Suspicious activity alerts"
+      ],
+      "stack": [
+        "Python",
+        "Django",
+        "JavaScript",
+        "Amazon S3"
+      ],
+      "contributions": [
+        "Developed Django backend features for device activity monitoring: calls, SMS, browser history and app usage.",
+        "Built the JavaScript dashboard where parents, schools and businesses review device activity.",
+        "Implemented GPS tracking, geofencing and suspicious-activity alerts.",
+        "Stored device media and reports securely in Amazon S3."
+      ]
+    },
+    {
+      "slug": "cosmicmailer",
+      "name": "CosmicMailer",
+      "tagline": "AI-enhanced email marketing platform",
+      "category": "ai",
+      "featured": true,
+      "url": "https://www.cosmicmailer.com/login",
+      "type": "SaaS platform",
+      "role": "Full Stack Developer",
+      "overview": "An AI-enhanced email marketing platform that simplifies campaign creation, content generation, contact management and email performance analysis.",
+      "features": [
+        "Email campaign management",
+        "AI content generation",
+        "Email templates",
+        "Analytics",
+        "Media management",
+        "Campaign workflows"
+      ],
+      "stack": [
+        "Next.js",
+        "Cosmic CMS"
+      ],
+      "contributions": [
+        "Built the Next.js application for campaigns, templates, contacts and analytics.",
+        "Integrated Cosmic CMS to manage email templates, media and content.",
+        "Implemented AI-assisted email content generation inside the campaign workflow.",
+        "Built analytics views to track campaign and email performance."
+      ]
+    },
+    {
+      "slug": "campusone",
+      "name": "CampusOne",
+      "tagline": "Digital learning platform for universities",
+      "category": "ai",
+      "featured": false,
+      "url": "https://www.campusone.site/",
+      "type": "Web application",
+      "role": "Full Stack Developer",
+      "overview": "A university-focused digital learning platform with student management, educational workflows and real-time communication.",
+      "technical": [
+        "Learning management workflows",
+        "Real-time notifications",
+        "AI-assisted academic features",
+        "Frontend and backend integration"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Socket.IO",
+        "OpenAI API"
+      ],
+      "contributions": [
+        "Built React interfaces for student management and learning workflows.",
+        "Developed Node.js APIs backed by PostgreSQL.",
+        "Implemented real-time notifications with Socket.IO.",
+        "Integrated the OpenAI API for AI-assisted academic features."
+      ]
+    },
+    {
+      "slug": "shoppable-business",
+      "name": "Shoppable Business",
+      "tagline": "B2B procurement marketplace",
+      "category": "b2b",
+      "featured": true,
+      "url": "https://shoppable.ph/",
+      "type": "Company project",
+      "company": "Shoppable Business",
+      "role": "Full Stack Engineer (Contract)",
+      "period": "08/2022 – 08/2023",
+      "overview": "A business procurement marketplace connecting suppliers with corporate buyers through product discovery, supplier onboarding, purchasing, payments and logistics integrations.",
+      "problem": "Businesses needed a more efficient way to discover suppliers, compare products and complete procurement without relying on disconnected manual processes.",
+      "contributions": [
+        "Built supplier onboarding workflows.",
+        "Designed the BuyBox product catalog architecture across 35+ categories.",
+        "Connected supplier listings with canonical product records.",
+        "Developed storefront and buyer purchasing interfaces.",
+        "Integrated payment and logistics services.",
+        "Implemented webhook-driven asynchronous processing."
+      ],
+      "impact": [
+        "Platform grew to 1,400+ suppliers.",
+        "Supported more than 300 buyer companies."
+      ],
+      "stack": [
+        "Laravel",
+        "PHP",
+        "Node.js",
+        "Vue.js",
+        "TypeScript",
+        "MySQL",
+        "REST APIs",
+        "Webhooks",
+        "AWS",
+        "Docker"
+      ],
+      "metrics": [
+        {
+          "value": "1,400+",
+          "label": "suppliers"
+        },
+        {
+          "value": "300+",
+          "label": "buyer companies"
+        },
+        {
+          "value": "35+",
+          "label": "catalog categories"
+        }
+      ]
+    },
+    {
+      "slug": "freedcamp",
+      "name": "Freedcamp",
+      "tagline": "Project management and team collaboration",
+      "category": "web",
+      "featured": false,
+      "url": "https://freedcamp.com/",
+      "type": "SaaS platform",
+      "role": "Full Stack Developer",
+      "overview": "A cloud-based project management and team collaboration platform that helps individuals, teams and organizations manage projects and coordinate work.",
+      "features": [
+        "Project management",
+        "Task assignments",
+        "Deadline management",
+        "Team collaboration",
+        "Progress tracking",
+        "File sharing",
+        "Workflow organization"
+      ],
+      "stack": [
+        "AWS",
+        "React",
+        "PHP",
+        "PayPal"
+      ],
+      "contributions": [
+        "Developed React interface features for project, task and deadline management.",
+        "Built PHP backend features for collaboration, progress tracking and file sharing.",
+        "Integrated PayPal for subscription billing.",
+        "Worked on AWS-hosted application infrastructure."
+      ]
+    },
+    {
+      "slug": "zingyzon",
+      "name": "Zingyzon",
+      "tagline": "Home and lifestyle content publishing site",
+      "category": "web",
+      "featured": false,
+      "url": "https://treeleftbigshop.com/",
+      "type": "Content publishing platform",
+      "role": "WordPress Developer",
+      "overview": "A content publishing website with articles, tutorials, buying guides, product recommendations and practical advice on home improvement, appliances, gardening and everyday living.",
+      "features": [
+        "Article publishing",
+        "Content categorization",
+        "Product recommendations",
+        "Buying guides",
+        "Guest contributions",
+        "Content management"
+      ],
+      "stack": [
+        "WordPress",
+        "Astra",
+        "PHP",
+        "MySQL / MariaDB"
+      ],
+      "contributions": [
+        "Built and customized the WordPress site on the Astra theme.",
+        "Set up content categories, article templates and buying-guide layouts.",
+        "Implemented product-recommendation sections and the guest-contribution workflow.",
+        "Configured content management so editors can publish without developer help."
+      ]
+    },
+    {
+      "slug": "edgy-media",
+      "name": "Edgy Media",
+      "tagline": "Social media marketing agency website",
+      "category": "web",
+      "featured": false,
+      "url": "https://edgy-media.vercel.app/",
+      "type": "Marketing website",
+      "role": "Frontend Developer",
+      "overview": "A website for a social media marketing agency focused on Instagram growth strategies, digital marketing services and social media engagement.",
+      "features": [
+        "Agency presentation",
+        "Marketing services",
+        "Instagram growth positioning",
+        "Service landing pages",
+        "Lead generation"
+      ],
+      "stack": [],
+      "contributions": [
+        "Built the agency website and its service landing pages.",
+        "Created responsive layouts presenting the Instagram growth services.",
+        "Implemented lead-generation sections and calls to action."
+      ]
+    },
+    {
+      "slug": "elevate-marketing-website",
+      "name": "Elevate Marketing Website",
+      "tagline": "Agent solutions marketing website",
+      "category": "web",
+      "featured": false,
+      "url": "https://elmstreet.com/agent-solutions",
+      "type": "Corporate / marketing website",
+      "role": "Frontend Developer",
+      "overview": "A marketing website presenting agent-oriented business solutions and communicating product value to potential customers.",
+      "stack": [],
+      "contributions": [
+        "Built the marketing pages presenting agent-oriented business solutions.",
+        "Implemented responsive content sections that communicate product value.",
+        "Added calls to action for lead capture."
+      ]
+    },
+    {
+      "slug": "seo-wins",
+      "name": "SEO Wins",
+      "tagline": "SEO services marketing website",
+      "category": "web",
+      "featured": false,
+      "url": "https://seowins.io/",
+      "type": "Marketing website",
+      "role": "Frontend Developer",
+      "overview": "An SEO-focused website presenting digital marketing and search optimization services.",
+      "stack": [],
+      "contributions": [
+        "Built the marketing website presenting SEO and digital marketing services.",
+        "Implemented responsive page layouts and service sections.",
+        "Structured the pages with search-friendly, semantic markup."
+      ]
+    },
+    {
+      "slug": "xcerlabs",
+      "name": "XcerLabs",
+      "tagline": "Revenue operations automation for home services",
+      "category": "automation",
+      "featured": false,
+      "url": "https://xcerlabs.com/",
+      "type": "Business automation platform",
+      "role": "Automation Engineer",
+      "overview": "A home-services revenue operations solution that connects business systems and improves lead management, customer workflows and operational automation.",
+      "technical": [
+        "Lead management",
+        "CRM automation",
+        "Business workflow integration",
+        "Job management",
+        "Revenue operations"
+      ],
+      "stack": [
+        "GoHighLevel",
+        "Make",
+        "Jobber"
+      ],
+      "contributions": [
+        "Connected GoHighLevel, Make and Jobber to automate lead management and job workflows.",
+        "Built CRM automations for lead follow-up and customer communication.",
+        "Integrated business systems so new leads flow into scheduled jobs and revenue tracking."
+      ]
+    },
+    {
+      "slug": "gohighlevel-mcp-integration",
+      "name": "GoHighLevel MCP Integration",
+      "tagline": "Connecting AI agents to a CRM with MCP",
+      "category": "automation",
+      "featured": false,
+      "url": null,
+      "type": "AI integration / CRM automation",
+      "role": "AI Integration Engineer",
+      "overview": "An integration connecting AI agent workflows with GoHighLevel CRM functionality through structured tool communication and the Model Context Protocol (MCP).",
+      "technical": [
+        "CRM integrations",
+        "AI agent tool execution",
+        "MCP integration",
+        "Workflow automation",
+        "Structured API communication"
+      ],
+      "stack": [
+        "MCP",
+        "GoHighLevel"
+      ],
+      "contributions": [
+        "Built an MCP integration that exposes GoHighLevel CRM actions as tools for AI agents.",
+        "Implemented structured API communication between agents and the CRM.",
+        "Automated CRM workflows triggered by agent tool calls."
+      ]
+    },
+    {
+      "slug": "roads-audio",
+      "name": "Roads Audio",
+      "tagline": "Product website for a voice-based social app",
+      "category": "landing",
+      "featured": true,
+      "url": "https://roadsaudio.com/",
+      "type": "Landing page / product website",
+      "role": "Frontend Developer",
+      "overview": "A product website for a voice-based social communication app that makes asynchronous voice messaging and conversations easier.",
+      "features": [
+        "Product introduction",
+        "Feature presentation",
+        "Mobile app positioning",
+        "User acquisition",
+        "Responsive landing-page design"
+      ],
+      "stack": [],
+      "contributions": [
+        "Built the responsive product landing page for the voice-messaging app.",
+        "Implemented feature-presentation sections and app-store calls to action.",
+        "Shaped the page around user acquisition and mobile app positioning."
+      ]
+    },
+    {
+      "slug": "last-bottle",
+      "name": "Last Bottle",
+      "tagline": "Interactive recycling-awareness product site",
+      "category": "landing",
+      "featured": true,
+      "url": "https://www.lastbottle.app/",
+      "type": "Landing page / product website",
+      "role": "Frontend Developer",
+      "overview": "A digital product focused on recycling awareness and environmental engagement through interactive experiences.",
+      "features": [
+        "Product storytelling",
+        "Environmental messaging",
+        "Interactive product presentation",
+        "Responsive design",
+        "User engagement"
+      ],
+      "stack": [],
+      "contributions": [
+        "Built the product website with interactive storytelling around recycling.",
+        "Implemented the interactive product presentation and responsive layouts.",
+        "Designed engagement sections that carry the environmental message."
+      ]
+    },
+    {
+      "slug": "colllect",
+      "name": "Colllect",
+      "tagline": "Visual organization for images, links and notes",
+      "category": "landing",
+      "featured": true,
+      "url": "https://colllect.io/",
+      "type": "Web application / product website",
+      "role": "Frontend Developer",
+      "overview": "A visual organization platform where users save and organize digital content such as images, links, notes and color palettes into collections.",
+      "features": [
+        "Product presentation",
+        "Visual organization",
+        "Collection management",
+        "User experience",
+        "Responsive interface"
+      ],
+      "stack": [],
+      "contributions": [
+        "Built the product website presenting visual collections of images, links, notes and color palettes.",
+        "Implemented responsive interface sections for the collection-management features.",
+        "Focused the experience on clear, visual product presentation."
+      ]
+    },
+    {
+      "slug": "tailwind-react-landing",
+      "name": "Tailwind React Landing",
+      "tagline": "Responsive landing page in React and Tailwind CSS",
+      "category": "landing",
+      "featured": false,
+      "url": "https://tailwind-react-landing.pages.dev/",
+      "type": "Frontend development",
+      "role": "Frontend Developer",
+      "overview": "A modern, responsive landing page built with React and Tailwind CSS.",
+      "technical": [
+        "Responsive layouts",
+        "Reusable components",
+        "Modern frontend styling",
+        "Component-based development",
+        "Mobile-first design"
+      ],
+      "stack": [
+        "React",
+        "Tailwind CSS"
+      ],
+      "contributions": [
+        "Built a responsive landing page with React and Tailwind CSS.",
+        "Created reusable, component-based sections with mobile-first layouts."
+      ]
+    },
+    {
+      "slug": "true-classic-tees",
+      "name": "True Classic Tees",
+      "tagline": "Apparel Shopify storefront",
+      "category": "shopify",
+      "featured": true,
+      "url": "http://trueclassictees-com.myshopify.com/",
+      "type": "Shopify e-commerce",
+      "role": "Shopify Developer",
+      "overview": "An apparel e-commerce storefront presenting clothing products and collections with a streamlined online shopping experience.",
+      "features": [
+        "Shopify storefront development",
+        "Product and collection presentation",
+        "Responsive shopping experience",
+        "Storefront UI customization",
+        "E-commerce user experience"
+      ],
+      "stack": [
+        "Shopify"
+      ],
+      "contributions": [
+        "Customized the Shopify storefront UI for product and collection presentation.",
+        "Built responsive shopping layouts for mobile and desktop.",
+        "Improved the e-commerce experience across product and collection pages."
+      ]
+    },
+    {
+      "slug": "nomad-outdoor",
+      "name": "Nomad Outdoor",
+      "tagline": "Outdoor retail Shopify storefront",
+      "category": "shopify",
+      "featured": true,
+      "url": "http://nomad-outdoor.myshopify.com/",
+      "type": "Shopify e-commerce",
+      "role": "Shopify Developer",
+      "overview": "An outdoor retail storefront that presents products with a clean, accessible online shopping experience.",
+      "features": [
+        "Shopify storefront development",
+        "Product catalog presentation",
+        "Collection layouts",
+        "Responsive storefront design",
+        "E-commerce UX"
+      ],
+      "stack": [
+        "Shopify"
+      ],
+      "contributions": [
+        "Developed the Shopify storefront and product catalog presentation.",
+        "Built collection layouts and responsive storefront design.",
+        "Improved the e-commerce experience for outdoor and lifestyle shoppers."
+      ]
+    },
+    {
+      "slug": "chronicle-books-wholesale",
+      "name": "Chronicle Books Wholesale",
+      "tagline": "B2B wholesale Shopify storefront",
+      "category": "shopify",
+      "featured": true,
+      "url": "http://chronicle-books-wholesale.myshopify.com/",
+      "type": "Shopify B2B / wholesale e-commerce",
+      "role": "Shopify Developer",
+      "overview": "A wholesale-oriented e-commerce storefront that presents book products and supports business purchasing workflows.",
+      "features": [
+        "Shopify storefront development",
+        "Wholesale product presentation",
+        "Catalog organization",
+        "Responsive storefront design",
+        "B2B shopping experience"
+      ],
+      "stack": [
+        "Shopify"
+      ],
+      "contributions": [
+        "Developed the wholesale Shopify storefront and catalog organization.",
+        "Built wholesale product presentation for business buyers.",
+        "Implemented a responsive B2B shopping experience."
+      ]
+    }
+  ]
+}

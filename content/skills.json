@@ -1,0 +1,9 @@
+[
+  { "group": "AI / Machine Learning", "items": ["LLM Integration", "Retrieval-Augmented Generation (RAG)", "Multi-Agent Systems", "AI Application Development", "OpenAI API", "Anthropic API", "Google AI Models", "Model Routing", "Context Assembly", "AI Workflow Orchestration", "Structured Outputs", "AI Tool Integration"] },
+  { "group": "Backend", "items": ["Python", "FastAPI", "Django", "Django REST Framework", "Node.js", "Java", "Spring Boot", "PHP", "Laravel", "REST APIs", "GraphQL", "Webhooks", "Asynchronous Processing"] },
+  { "group": "Frontend", "items": ["React", "React Native", "Next.js", "TypeScript", "JavaScript", "Vue.js", "Angular", "Redux", "Tailwind CSS", "HTML5", "CSS3"] },
+  { "group": "Databases", "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Database Architecture", "Database Design", "Query Optimization", "Database Migrations"] },
+  { "group": "Cloud / DevOps", "items": ["AWS", "Docker", "Kubernetes", "CI/CD", "Cloud Deployment", "Production Monitoring", "Datadog", "Infrastructure Management"] },
+  { "group": "Testing & Quality", "items": ["Pytest", "Jest", "React Testing Library", "Playwright", "Cypress", "Unit Testing", "Integration Testing", "End-to-End Testing", "Debugging"] },
+  { "group": "Architecture", "items": ["System Architecture", "Distributed Systems", "Event-Driven Architecture", "Real-Time Applications", "WebSockets", "Server-Sent Events", "MCP Integrations", "API Architecture", "Technical Leadership"] }
+]

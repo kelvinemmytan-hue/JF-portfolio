@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Hebbia",
+    "url": "https://www.hebbia.com/",
+    "role": "Senior AI Full Stack Engineer (Contract)",
+    "period": "09/2023 – 09/2026",
+    "location": "New York, NY, USA · Remote",
+    "overview": "Enterprise AI company building AI-powered research and document intelligence software. Its Matrix platform helps financial institutions, legal professionals and enterprise teams analyze large document collections and run complex research workflows with AI agents.",
+    "achievements": [
+      "Owned the Python/FastAPI execution layer that turned a single Matrix instruction into thousands of independently scheduled AI agent jobs.",
+      "Developed real-time streaming infrastructure with Server-Sent Events and WebSockets to deliver agent results to interactive React data grids.",
+      "Designed execution state, session management and recovery infrastructure on PostgreSQL and Redis.",
+      "Integrated OpenAI, Anthropic and Google AI models through a unified provider architecture with model routing, retries and fallbacks.",
+      "Developed structured citation pipelines linking generated answers to original documents, spreadsheet cells and source data.",
+      "Implemented idempotent execution and session recovery for long-running AI tasks.",
+      "Built automated testing and production monitoring workflows.",
+      "Mentored two frontend engineers and contributed to architecture reviews and API design."
+    ],
+    "stack": ["Python", "FastAPI", "Asyncio", "React", "React Native", "TypeScript", "Redux", "PostgreSQL", "Redis", "OpenAI", "Anthropic", "Google AI", "Pytest", "Jest", "Playwright", "Docker", "Kubernetes", "AWS", "Datadog", "CI/CD"]
+  },
+  {
+    "company": "Shoppable Business",
+    "url": "https://shoppable.ph/",
+    "role": "Full Stack Engineer (Contract)",
+    "period": "08/2022 – 08/2023",
+    "location": "Makati, Philippines · Remote",
+    "overview": "B2B procurement marketplace connecting business buyers with suppliers, covering supplier onboarding, product discovery, procurement, payments and logistics in one platform.",
+    "achievements": [
+      "Developed full-stack marketplace capabilities for a B2B platform that grew to more than 1,400 suppliers and 300 buyer companies.",
+      "Designed the BuyBox product catalog architecture across 35+ categories, connecting supplier listings to canonical product records.",
+      "Developed supplier onboarding, storefront management and buyer purchasing interfaces.",
+      "Integrated payment providers, logistics platforms and external business services through REST APIs and webhooks.",
+      "Implemented asynchronous payment and delivery processing so external service delays never blocked checkout.",
+      "Maintained AWS environments, Docker builds and continuous deployment pipelines."
+    ],
+    "stack": ["PHP", "Laravel", "Node.js", "Vue.js", "TypeScript", "JavaScript", "MySQL", "REST APIs", "Webhooks", "AWS", "Docker", "CI/CD"]
+  },
+  {
+    "company": "Exist Software Labs",
+    "url": "https://exist.com/",
+    "role": "Full Stack Developer",
+    "period": "08/2021 – 07/2022",
+    "location": "Pasig City, Philippines · Remote",
+    "overview": "Technology and software engineering company providing custom software development, enterprise IT solutions, consulting and system integration across many industries.",
+    "achievements": [
+      "Developed enterprise application features with Java, Spring Boot and JPA/Hibernate.",
+      "Designed relational database models and optimized SQL queries across MySQL and PostgreSQL.",
+      "Investigated slow backend endpoints and improved database access patterns.",
+      "Built Angular and TypeScript interfaces integrated with REST APIs.",
+      "Collaborated with QA, client integration teams and engineers through code reviews, debugging, testing and staged deployments."
+    ],
+    "stack": ["Java", "Spring Boot", "JPA", "Hibernate", "Angular", "TypeScript", "JavaScript", "MySQL", "PostgreSQL", "REST APIs"]
+  }
+]

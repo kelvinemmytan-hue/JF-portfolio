@@ -1,0 +1,111 @@
+{
+  "_note": "Headings and short texts of each section. In a 'title', the second line is shown with the gradient. Edit here, then run: node scripts/build.mjs Placeholders: {years}, {city}, {country}.",
+  "hero": {
+    "kicker": "// HI, I'M",
+    "availability": "OPEN TO REMOTE WORK · US & EU HOURS",
+    "primaryButton": "Explore projects",
+    "secondaryButton": "Get in touch",
+    "scrollCue": "SCROLL TO EXPLORE",
+    "images": [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=70",
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=70",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=70"
+    ]
+  },
+  "about": {
+    "kicker": "ABOUT ME",
+    "title": [
+      "AI engineering,",
+      "end to end."
+    ],
+    "facts": [
+      {
+        "icon": "✳",
+        "label": "Focus",
+        "value": "AI apps · SaaS · Full stack"
+      },
+      {
+        "icon": "⌖",
+        "label": "Location",
+        "value": "{city}, PH · 100% remote"
+      },
+      {
+        "icon": "◷",
+        "label": "Experience",
+        "value": "{years} years in development"
+      },
+      {
+        "icon": "⏱",
+        "label": "Working hours",
+        "value": "Flexible for US & EU time zones"
+      },
+      {
+        "icon": "↗",
+        "label": "Open to",
+        "value": "Full-time · Contract · Freelance"
+      },
+      {
+        "icon": "Aa",
+        "label": "Languages",
+        "value": "English"
+      }
+    ],
+    "quote": "“Reliable software from concept to production — with AI where it makes a difference.”"
+  },
+  "experience": {
+    "kicker": "EXPERIENCE",
+    "title": [
+      "{years} years",
+      "shipping."
+    ],
+    "stackLabel": "STACK"
+  },
+  "projects": {
+    "kicker": "PROJECTS",
+    "title": [
+      "Selected",
+      "work."
+    ],
+    "aside": [
+      "AI platforms, SaaS products, websites and storefronts.",
+      "Click a project to open the live site."
+    ],
+    "featuredLabel": "FEATURED",
+    "moreLabel": "MORE PROJECTS",
+    "liveButton": "Live site",
+    "detailsButton": "Case study"
+  },
+  "skills": {
+    "kicker": "SKILLS",
+    "title": [
+      "Tools of",
+      "the trade."
+    ],
+    "aside": [
+      "Technologies and practices I use every day —",
+      "from the backend to AI models in production."
+    ]
+  },
+  "education": {
+    "kicker": "EDUCATION",
+    "title": [
+      "Built on",
+      "fundamentals."
+    ]
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": [
+      "Let's build",
+      "together."
+    ],
+    "text": "Open to remote full-time roles, contract work and freelance projects. I work flexible hours that overlap with US and EU time zones. Message me on WhatsApp or Telegram, or send an email."
+  },
+  "notFound": {
+    "title": [
+      "Page not",
+      "found."
+    ],
+    "text": "The page you are looking for does not exist or has moved."
+  }
+}

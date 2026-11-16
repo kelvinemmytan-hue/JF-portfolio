@@ -1,0 +1,13 @@
+{
+  "_note": "Icon file (assets/skills/<name>.svg) for each skill. Skills not listed use their group's icon.",
+  "skills": {
+    "React": "react", "React Native": "react", "TypeScript": "typescript", "JavaScript": "javascript", "Vue.js": "vuedotjs", "Angular": "angular",
+    "HTML5": "html5", "CSS3": "html5", "Python": "python", "FastAPI": "fastapi", "Node.js": "nodedotjs",
+    "Java": "openjdk", "Spring Boot": "springboot", "PHP": "laravel", "Laravel": "laravel", "PostgreSQL": "postgresql", "MySQL": "mysql", "MongoDB": "mongodb",
+    "Redis": "redis", "AWS": "cloud", "Docker": "docker", "Kubernetes": "kubernetes", "CI/CD": "cicd", "OpenAI API": "openai", "Anthropic API": "claude",
+    "Google AI Models": "googlegemini", "LLM Integration": "llm", "Retrieval-Augmented Generation (RAG)": "rag", "Multi-Agent Systems": "nlp"
+  },
+  "groups": {
+    "AI / Machine Learning": "llm", "Backend": "code", "Frontend": "code", "Databases": "database", "Cloud / DevOps": "cloud", "Testing & Quality": "test", "Architecture": "layers"
+  }
+}
