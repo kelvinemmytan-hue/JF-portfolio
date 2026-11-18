@@ -1,5 +1,5 @@
 {
-  "_note": "Headings and short texts of each section. In a 'title', the second line is shown with the gradient. Edit here, then run: node scripts/build.mjs Placeholders: {years}, {city}, {country}.",
+  "_note": "Headings and short texts of each section. In a 'title', the second line is shown with the gradient. Edit here, then run: npm run build Placeholders: {years}, {city}, {country}.",
   "hero": {
     "kicker": "// HI, I'M",
     "availability": "OPEN TO REMOTE WORK · US & EU HOURS",

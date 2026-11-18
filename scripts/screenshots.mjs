@@ -1,4 +1,4 @@
-// Captures project screenshots (assets/projects/<slug>.jpg) and the share image (assets/og-image.jpg)
+// Captures project screenshots (public/assets/projects/<slug>.jpg) and the share image (public/assets/og-image.jpg)
 // with a headless Chrome that uses its own temporary profile.
 //   node scripts/screenshots.mjs              -> every project that has a URL and no screenshot yet
 //   node scripts/screenshots.mjs slug1 slug2  -> only these projects (overwrites)
@@ -20,7 +20,7 @@ const PORT = +process.env.PORT || 9333;
 const args = process.argv.slice(2);
 
 const { projects } = JSON.parse(fs.readFileSync(path.join(root, "content/projects.json"), "utf8"));
-const outDir = path.join(root, "assets/projects");
+const outDir = path.join(root, "public/assets/projects");
 fs.mkdirSync(outDir, { recursive: true });
 
 const jobs = [];
@@ -38,7 +38,7 @@ if (args[0] === "--url") {
   const html = fs.readFileSync(path.join(root, "scripts/og-card.html"), "utf8").replace(/\{\{(\w+)\}\}/g, (_, k) => values[k] ?? "");
   const tmp = path.join(os.tmpdir(), `og-card-${process.pid}.html`);
   fs.writeFileSync(tmp, html);
-  jobs.push({ url: pathToFileURL(tmp).href, out: path.join(root, "assets/og-image.jpg"), w: 1200, h: 630, scale: 1, wait: 500 });
+  jobs.push({ url: pathToFileURL(tmp).href, out: path.join(root, "public/assets/og-image.jpg"), w: 1200, h: 630, scale: 1, wait: 500 });
 } else {
   for (const p of projects) {
     if (!p.url) continue;

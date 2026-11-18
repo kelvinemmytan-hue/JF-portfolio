@@ -1,5 +1,5 @@
 {
-  "_note": "Site themes (from the original design). The first one listed under 'default' loads first; visitors switch with the theme button and the choice is remembered. Edit colors here, then run: node scripts/build.mjs",
+  "_note": "Site themes (from the original design). The first one listed under 'default' loads first; visitors switch with the theme button and the choice is remembered. Edit colors here, then run: npm run build",
   "default": "amazon",
   "themes": {
     "amazon": {

@@ -2,9 +2,9 @@
    Theme: dark forest green + lime, blended with tech blue (from the original design)
    ========================================================================== */
 :root {
-  /* Colors come from assets/themes.css (generated from content/themes.json). */
-  --mono: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  --sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Colors come from content/themes.json (written into <head> by app/layout.tsx). Fonts are self-hosted by next/font. */
+  --mono: var(--font-dm-mono), "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: var(--font-manrope), "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --shell: 1120px;
   color-scheme: dark;
 }
