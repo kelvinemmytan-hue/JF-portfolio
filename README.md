@@ -80,6 +80,8 @@ Uses your installed Chrome (or Edge) with a temporary profile.
 ## Before publishing
 
 1. Set `siteUrl` in `content/site.json` to the real address, then `npm run build`.
+   On Vercel this is automatic: production builds use the project's production domain (custom domain if one
+   is added, otherwise the `*.vercel.app` one). Set a `SITE_URL` environment variable to override it.
 2. Deploy the `out/` folder (Netlify, Vercel, Cloudflare Pages or GitHub Pages).
    If the site will live in a sub-folder (for example `username.github.io/JF-portfolio`), build with
    `NEXT_PUBLIC_BASE_PATH=/JF-portfolio`.

@@ -19,7 +19,13 @@ export const categories = projectsJson.categories as Category[];
 export const projects = projectsJson.projects as unknown as Project[];
 
 // ---------- URLs ----------
-export const BASE = site.siteUrl.replace(/\/+$/, "");
+// The address the site is published at. It goes into the canonical links, sitemap, robots.txt, share tags and
+// structured data, so it must be an address that is really live. Order of preference:
+//   1. SITE_URL environment variable (manual override, e.g. to force the www address)
+//   2. on Vercel production builds: the project's production domain, as reported by Vercel itself
+//   3. siteUrl in content/site.json (any other host)
+const vercelHost = process.env.VERCEL_ENV === "production" ? process.env.VERCEL_PROJECT_PRODUCTION_URL : undefined;
+export const BASE = (process.env.SITE_URL || (vercelHost ? `https://${vercelHost}` : site.siteUrl)).replace(/\/+$/, "");
 /** Absolute URL on the published site. */
 export const abs = (p = "") => `${BASE}/${p.replace(/^\/+/, "")}`;
 export const today = new Date().toISOString().slice(0, 10);
